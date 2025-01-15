@@ -35,9 +35,7 @@
 	margin-bottom: 1rem;  				/* 16px space between paragraphs */
   }
 .column {
-	position:center;
 	width:100%;
-	float:center;
 	box-sizing:border-box;
 }
 /* For devices larger than 400px */
@@ -122,6 +120,23 @@
 	margin-right: auto;
 	display: block;
   }
+
+
+.featured-image {
+	width: 9rem;             /* 128px */
+	height: 10rem;
+	object-fit: cover;
+	background-position: center;
+	margin-bottom: var(--spacing-l);
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.featured-image:hover {
+	filter:brightness(90%);
+	transform:translateY(-5px);
+}
 
 /* Typography Scale */
 h1 {
